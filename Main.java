@@ -6,8 +6,14 @@ public class Main
 {
      public static void main(String[] args)
      {
-         // Setting up
-         System.out.println("Hello World!");
+         // Testing Class connection
+         GroceryList test = new GroceryList();
+
+         System.out.println(test.printTest());
+
+         test.addTest("Hello World!");
+         System.out.println(test.printTest());
+
      }
 
 }
